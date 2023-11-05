@@ -1,7 +1,6 @@
 package org.example.ui;
 
-import org.example.Campo;
-import org.example.exceptions.ExplosaoException;
+import org.example.entity.Campo;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,9 +1,9 @@
-package org.example.exceptions;
+package org.example.exception;
 
 import java.io.Serial;
 
-public class ExplosaoException extends RuntimeException{
-
+public class SairException extends RuntimeException{
     @Serial
     private static final long serialVersionUID = 1L;
+
 }

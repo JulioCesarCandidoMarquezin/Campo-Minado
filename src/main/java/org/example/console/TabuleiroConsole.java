@@ -1,7 +1,9 @@
-package org.example;
+package org.example.console;
 
-import org.example.exceptions.ExplosaoException;
-import org.example.exceptions.SairException;
+import org.example.entity.Campo;
+import org.example.entity.Tabuleiro;
+import org.example.exception.ExplosaoException;
+import org.example.exception.SairException;
 
 import java.util.Arrays;
 import java.util.Iterator;

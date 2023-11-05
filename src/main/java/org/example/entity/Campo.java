@@ -1,6 +1,6 @@
-package org.example;
+package org.example.entity;
 
-import org.example.exceptions.ExplosaoException;
+import org.example.exception.ExplosaoException;
 
 import java.util.ArrayList;
 import java.util.List;
