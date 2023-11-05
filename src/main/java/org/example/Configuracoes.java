@@ -60,15 +60,19 @@ public class Configuracoes extends JFrame {
     private static void iniciarJogoConsole(ActionEvent event)
     {
         criarTabuleiro();
-        if(tabuleiro != null) new TabuleiroConsole(tabuleiro);
-        fecharConfiguracoes(event);
+        if(tabuleiro != null) {
+            new TabuleiroConsole(tabuleiro);
+            fecharConfiguracoes(event);
+        }
     }
 
     private static void iniciarJogoUI(ActionEvent event)
     {
         criarTabuleiro();
-        if(tabuleiro != null) new TabuleiroUI(tabuleiro);
-        fecharConfiguracoes(event);
+        if(tabuleiro != null) {
+            new TabuleiroUI(tabuleiro);
+            fecharConfiguracoes(event);
+        }
     }
 
     private static void fecharConfiguracoes(ActionEvent event)
