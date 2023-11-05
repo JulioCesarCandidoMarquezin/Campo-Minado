@@ -10,8 +10,8 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 public class TabuleiroConsole {
-    private Tabuleiro tabuleiro;
-    private Scanner entrada = new Scanner(System.in);
+    private final Tabuleiro tabuleiro;
+    private final Scanner entrada = new Scanner(System.in);
 
     public TabuleiroConsole(Tabuleiro tabuleiro)
     {

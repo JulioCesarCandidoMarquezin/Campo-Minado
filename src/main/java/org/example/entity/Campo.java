@@ -48,7 +48,7 @@ public class Campo {
         marcado = !marcado;
     }
 
-    public boolean abrir()
+    public void abrir()
     {
         if(!aberto && !marcado) {
             aberto = true;
@@ -61,9 +61,7 @@ public class Campo {
                 vizinhos.forEach(Campo::abrir);
             }
 
-            return true;
         }
-        return false;
     }
 
     public boolean vizinhancaSegura()

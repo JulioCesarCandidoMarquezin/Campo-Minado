@@ -28,7 +28,7 @@ public class CampoUI extends JButton {
         setText(campo.toString());
         setForeground(Color.WHITE);
         setVisible(true);
-        setBackground(Color.GRAY);
+        setBackground(Color.WHITE);
     }
 
     public Campo getCampo()
